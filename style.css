@@ -1,0 +1,42 @@
+body{
+    background:linear-gradient(blue 0% ,cyan 100%);
+    font-size: 22px;
+}
+
+h1{
+    font-family: 'special title'fantasy;
+    color: blue;
+    background-color: white;
+}
+#sketch_name{
+    color: pink;
+}
+#show_sketch{
+    float:right;
+}
+#score{
+    color:white;
+    font-size:22px;
+    float:left;
+}
+#time{
+    color:white;
+    font-size:22px;
+    float:right;
+}
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px; 
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
